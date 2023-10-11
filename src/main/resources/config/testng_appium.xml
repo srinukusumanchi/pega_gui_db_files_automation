@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Demo Suite" verbose="0" parallel="tests">
+    <listeners>
+        <listener class-name="com.quantum.java.pages.ScotiaQuantumReportListener"/>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
+    </listeners>
+
+    <!-- To use actual AppiumDriver classes defined    -->
+    <!-- by driverClass property in env.resources dirs -->
+
+    <!--
+        <test name="IOS Calc Test" enabled="true">
+            <parameter name="driver.capabilities.model" value="iPhone.*"></parameter>
+            <parameter name="env.resources" value="src/main/resources/ios"/>
+
+            <groups>
+                <run>
+                    <include name="@appium"/>
+                </run>
+            </groups>
+            <classes>
+                <class name="com.quantum.utility.ScotiaGherkinScenarioFactory"/>
+            </classes>
+        </test>
+
+        <test name="Android Calc Test" enabled="true">
+            <parameter name="driver.capabilities.model" value="Galaxy S.*"></parameter>
+            <parameter name="env.resources" value="src/main/resources/android"/>
+            <groups>
+                <run>
+                    <include name="@appium"/>
+                </run>
+            </groups>
+            <classes>
+                <class name="com.quantum.utility.ScotiaGherkinScenarioFactory"/>
+            </classes>
+        </test> -->
+
+    <test name="@GigaFoxSample" enabled="true">
+        <!--<parameter name="driver.capabilities.model" value="iPhone.*"></parameter>-->
+        <!--<parameter name="driver.capabilities.platformName" value="iOS"></parameter>-->
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+        <groups>
+            <run>
+                <include name="@Example"/>
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.quantum.utility.ScotiaGherkinScenarioFactory"/>
+        </classes>
+    </test>
+</suite>

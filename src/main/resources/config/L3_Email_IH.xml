@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="none" thread-count="10">
+    <listeners>
+        <listener class-name="com.quantum.java.pages.ScotiaQuantumReportListener"/>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
+    </listeners>
+    <test name="BDD Test" enabled="true">
+        <groups>
+            <run>
+                <include name="@VALADD-18231"/>
+                <include name="@VALADD-18237"/>
+                <include name="@VALADD-18225"/>
+                <include name="@VALADD-18224"/>
+                <include name="@VALADD-18522"/>
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.quantum.utility.ScotiaGherkinScenarioFactory"/>
+        </classes>
+    </test>
+</suite>
+

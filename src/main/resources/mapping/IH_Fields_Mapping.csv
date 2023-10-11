@@ -1,0 +1,53 @@
+ReportField,Level1,Level2,Level3,Level4
+ACZoneCode,pxResults,pxPages,pxContextDimension,ACZoneCode
+Cell Group,pxResults,pxPages,pxContextDimension,CellGroup
+Control,pxResults,pxPages,pxContextDimension,Control
+LeadScope,pxResults,pxPages,pxContextDimension,LeadScope
+OFR_INSTANCE_ID,pxResults,pxPages,pxContextDimension,OFR_INSTANCE_ID
+Primary Context Type,pxResults,pxPages,pxContextDimension,PrimaryContextType
+Primary Context Value,pxResults,pxPages,pxContextDimension,PrimaryContextValue
+pyCategory,pxResults,pxPages,pxContextDimension,pyCategory
+Component,pxResults,pxPages,pxApplicationDimension,pyComponent
+pyReason,pxResults,pxPages,pxContextDimension,pyReason
+Strategy,pxResults,pxPages,pxApplicationDimension,pyStrategy
+BundleHead,pxResults,pxActionDimension,BundleHead,
+Campaign Code,pxResults,pxActionDimension,CampaignCode,
+OfferVersion,pxResults,pxActionDimension,OfferVersion,
+Persistence Days,pxResults,pxActionDimension,PersistenceDays,
+pyBehaviour,pxResults,pxOutcomeDimension,pyBehaviour,
+Channel,pxResults,pxChannelDimension,pyChannel,
+Direction,pxResults,pxChannelDimension,pyDirection,
+Division,pxResults,pxOperatorDimension,pyDivision,
+Group,pxResults,pxActionDimension,pyGroup,
+Issue,pxResults,pxActionDimension,pyIssue,
+Proposition name,pxResults,pxActionDimension,pyName,
+Operator,pxResults,pxOperatorDimension,pyOperator,
+Organization,pxResults,pxOperatorDimension,pyOrganization,
+Outcome,pxResults,pxOutcomeDimension,pyOutcome,
+pyTreatment,pxResults,pxChannelDimension,pyTreatment,
+Unit,pxResults,pxOperatorDimension,pyUnit,
+Rest Period Days,pxResults,pxActionDimension,RestPeriodDays,
+Account Number,pxResults,AccountNumber,,
+Channel Outcome,pxResults,ChannelOutcome,,
+Lead End Date,pxResults,LEAD_END_DT,,
+Lead Start Date,pxResults,LEAD_ST_DT,,
+Lead ID,pxResults,LeadID,,
+pxFactID,pxResults,pxFactID,,
+Interaction,pxResults,pxInteractionID,,
+pxInteractionID,pxResults,pxInteractionID,,
+Offered on,pxResults,pxOutcomeTime,,
+pxPriority,pxResults,pxPriority,,
+pxRank,pxResults,pxRank,,
+pyExternalID,pxResults,pyExternalID,,
+pyPropensity,pxResults,pyPropensity,,
+pySubjectID,pxResults,pySubjectID,,
+ActionID,pxResults,pzActionID,,
+ChannelID,pxResults,pzChannelID,,
+OutcomeID,pxResults,pzOutcomeID,,
+REFERENCE_NUM,pxResults,REFERENCE_NUM,,
+SAS Lead ID,pxResults,SAS_LEAD_ID,,
+SAS_TREATMNT_TRCK_CD,pxResults,SAS_TREATMNT_TRCK_CD,,
+Transit,pxResults,Transit,,
+ZoneCode,pxResults,ZoneCode,,
+SAS_RESPNS_TRCK_CD,pxResults,NOT_USED,,
+BundleName,pxResults,NOT_USED,,

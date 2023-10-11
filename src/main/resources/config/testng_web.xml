@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web Demo Suite" verbose="0" parallel="none" thread-count="10">
+    <listeners>
+        <listener class-name="com.quantum.java.pages.ScotiaQuantumReportListener"/>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
+    </listeners>
+    <test name="BDD Test" enabled="true">
+        <groups>
+            <run>
+                                <include name="@Smoke_TestDataCreation"/>
+                <include name="@Near_Primacy_D2D_Bundle_Xsell_Anniversary_Offer_EML_TestLoad"/>
+
+<!--                              <include name="@ODPAcquisition_CCFile_5787_positive_segmentation"/>-->
+<!--                <include name="@ODPAcquisition_Email_5787_positive_segmentation"/>-->
+<!--                <include name="@D2DAcq_Email_5747_IH_PositiveTCs_Validation_Sanity"/>-->
+<!--                <include name="@MA_IH_Validation"/>-->
+
+
+            </run>
+        </groups>
+        <classes>
+            <class
+                    name="com.quantum.utility.ScotiaGherkinScenarioFactory"/>
+        </classes>
+    </test>
+</suite>
+
